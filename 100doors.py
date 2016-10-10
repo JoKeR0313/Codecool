@@ -10,6 +10,6 @@ for x in range (1, 101):
             else:
                 doors[status] = 0
 
-for status in range(100): #Counting the open doors.
+for status in range(100): #Counting the opened doors.
     if doors[status] == 1:
         print(status+1 ,end=" ")
